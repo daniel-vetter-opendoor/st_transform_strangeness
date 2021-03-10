@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "test-sedona"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Vetter <daniel.vetter@opendoor.com>"]
+
+[tool.poetry.dependencies]
+python = "3.6.2"
+pyspark = "^2.4.3"
+apache-sedona = "^1.0.0"
+pandas = "0.25.3"
+tabulate = "^0.8.9"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+flake8 = "^3.8.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
